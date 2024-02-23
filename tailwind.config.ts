@@ -7,13 +7,20 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+    colors: {
+      'primary': '#CBFC01',
+      'base-100': '#151515',
+      'white': "#fff",
+      'black': "#000"
     },
+    extend: {
+    lineHeight: {
+      '12': '90px'
+    },
+    backgroundImage: {
+      'comments': 'url("/CommentsBackground.png")'
+    }
+    }
   },
   plugins: [],
 };
