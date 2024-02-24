@@ -18,7 +18,8 @@ const config: Config = {
       '12': '90px'
     },
     backgroundImage: {
-      'comments': 'url("/CommentsBackground.png")'
+      'comments': 'url("/CommentsBackground.png")',
+      'footer': 'url("/FooterBackground.svg")'
     }
     }
   },
