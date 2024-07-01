@@ -20,16 +20,16 @@ const Footer: React.FC = () => {
               Lorem ipsum dolor sit amet, consectetur
             </p>
             <div className="mt-10 flex items-center">
-              <a href="#" className="me-4">
+              <a href="#" className="me-4 transition-all duration-300 hover:opacity-70">
                 <Linkedin fill="white" />
               </a>
-              <a href="#" className="me-4">
+              <a href="#" className="me-4 transition-all duration-300 hover:opacity-70">
                 <Messenger fill="white" />
               </a>
-              <a href="#" className="me-4">
+              <a href="#" className="me-4 transition-all duration-300 hover:opacity-70">
                 <Twitter fill="white" />
               </a>
-              <a href="#">
+              <a href="#" className="transition-all duration-300 hover:opacity-70">
                 <Twoo fill="white" />
               </a>
             </div>
